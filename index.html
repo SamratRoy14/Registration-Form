@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HTML Form for Coding Ninjas
+    </title>
+</head>
+
+<body>
+    <header>
+        <h2>Already Registered ? <u>LOGIN</u> now</h2>
+        <form>
+            <label for="myEmail">Email</label>
+            <input type="email" id="myEmail" name="email" placeholder="abc@gmail.com" />
+
+            <label for="myPassword">Password</label>
+            <input type="password" id="myPassword" name="password" />
+
+            <button>
+                <centre><img src="https://ninjasfiles.s3.amazonaws.com/0000000000001394.png" height="14" width="35" />
+                </centre>
+                Login
+            </button>
+        </form>
+        <br>
+        <hr />
+        <br />
+        <p>
+            <b><a href="blog.codingninjas.in"> Coding Ninjas Blog </a> </b>
+        </p>
+        <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png" />
+        <!-- image to be used:
+      https://ninjasfiles.s3.amazonaws.com/0000000000001395.png -->
+
+        <hr />
+
+        <h2><u> REGISTRATION </u></h2>
+        <form action="" method="post">
+            <div>
+                <label for="firstName">First Name :&emsp;&emsp;&emsp;</label>
+                <input type="text" id="firstName" name="name1" />
+            </div>
+            <br>
+            <div>
+                <form action="" method="post">
+                    <label for="lastName">Last Name :&emsp;&emsp;&emsp;</label>
+                    <input type="text" id="lastName" name="name2" />
+            </div>
+        </form>
+    </header>
+
+    <br />
+    <br />
+
+    <main>
+        <form action="" method="post">
+            <table>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Current Address:</td>
+                        <td><label for="house">Flat No./House No.</label></td>
+                        <td>
+                            <input type="text" id="house">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="locality">Locality</label></td>
+                        <td>
+                            <input type="text" id="locality">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City</label></td>
+                        <td>
+                            <input type="text" id="city">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><b>Is Current address and Permanent address same?</b>
+                <input type="radio" name="isSame" , value="yes" checked>Yes
+                <input type="radio" name="isSame" , value="no">No
+            </p>
+            <label for="mail">Email:&emsp;&emsp;&emsp;</label>
+            <input type="email" id="mail" name="email" placeholder="abc@gmail.com" />
+            <br><br>
+            <label for="myPassword2">Password:&emsp;&ensp;</label>
+            <input type="password" id="myPassword2" name="password2" />
+            <br><br>
+            <input type="submit" name="submit" value="Register" />
+
+        </form>
+    </main>
+</body>
+
+</html>
